@@ -2,6 +2,8 @@
 import socket
 import json
 
+
+
 # Paramètres du serveur
 HOST = '127.0.0.1'
 PORT = 65432
