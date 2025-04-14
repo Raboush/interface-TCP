@@ -13,6 +13,8 @@ def send_request(request):
         data = s.recv(1024)
         print(f"[REPONSE] {data.decode()}")
 
+        
+
 if __name__ == '__main__':
     print("=== Client TCP Terminal ===")
     while True:
